@@ -1,4 +1,4 @@
-package ch06_obj2;
+package ch07_obj2;
 
 public class SuperEx1 {
 	public static void main(String[] args) {
@@ -17,6 +17,7 @@ class Parent {
 }
 class Child extends Parent {
 	int y;
+	int x=5;
 	Child(){super(3);}
 	
 	public Child(int x, int y) {

@@ -1,4 +1,4 @@
-package ch06_obj2;
+package ch07_obj2;
 public class SuperEx2 {
 	public static void main(String[] args) {
 		Child2 c = new Child2();

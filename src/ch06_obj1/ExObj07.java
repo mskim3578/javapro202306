@@ -39,7 +39,7 @@ class Circle {
 	void scale(double m) {		r=r*m;	}
 	
 	
-	public String toString() {
+	public String toString11() {
 		return 
 		no+"번원 : 반지름:"+(int)r +", 좌표 :("+x+","+y+"), 넓이 :"
 				+ String.format("%.3f", area() )

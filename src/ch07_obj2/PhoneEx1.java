@@ -1,4 +1,4 @@
-package ch06_obj2;
+package ch07_obj2;
 /*
  * 상속 예제
  * 

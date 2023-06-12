@@ -1,7 +1,7 @@
 package ch07_obj2;
 public class InstanceOfEx1 {
 	public static void main(String[] args) {
-		Parent4 p = new Parent4();
+		Parent4 p = new Child4();
 		
 		if (p instanceof Child4) {
 			System.out.println("p 참조변수 객체는 Child4 객체다");

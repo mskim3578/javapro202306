@@ -28,7 +28,7 @@ class IClass implements I {
 	}	
 }
 class AbsClass extends Abs {
-	
+	int iv;
 	@Override
 	void test() {
 		System.out.println("iv=" + iv); // 지역변수 final iv 출력
@@ -37,6 +37,7 @@ class AbsClass extends Abs {
 	}
 	
 }
+
 
 
 

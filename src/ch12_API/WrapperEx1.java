@@ -10,7 +10,7 @@ compareTo() 오버라이딩
 class WrapperEx1 {
 	public static void main(String[] args) {
 		Integer i  = 100;
-		Integer i2 = new Integer(123);
+		Integer i2 = new Integer(100);
 		int iii = i;  //Unboxing
 		double d = i;
 		float f = i;

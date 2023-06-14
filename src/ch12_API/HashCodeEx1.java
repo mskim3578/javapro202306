@@ -3,8 +3,9 @@ package ch12_API;
  */
 class HashCodeEx1 {
 	public static void main(String[] args) {
-		Value v1 = new Value("abc");
-		Value v2 = new Value("abc");
+		//114225
+		Value v1 = new Value("str");
+		Value v2 = new Value("str");
 		System.out.println(v1.equals(v2));
 		System.out.println(v1.hashCode());
 		System.out.println(v2.hashCode());

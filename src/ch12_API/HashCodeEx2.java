@@ -1,12 +1,14 @@
 package ch12_API;
 public class HashCodeEx2 {
 	public static void main(String[] args) {
-		String s1 = new String("str");	
-		String s2 = new String("str");
-		String s3="aaa";
-		String s4="aaa";
+		String s1 = new String("str");	//100
+		String s2 = new String("str"); //200
+		String s3="aaa"; //300
+		String s4="aaa";  //300
 		System.out.println(s3==s4);  //true
 		System.out.println(s1==s2);  //false
+		
+		
 		System.out.println(s1.equals(s2));
 		System.out.println(s1.hashCode());
 		System.out.println(s2.hashCode());

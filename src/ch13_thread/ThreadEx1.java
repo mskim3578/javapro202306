@@ -21,7 +21,14 @@ public class ThreadEx1 {
 		Thread1 t1 = new Thread1("First"); // New 상태
 		Thread1 t2 = new Thread1("Second");// New 상태
 		 t1.start(); //Runnable 상태
+		 try {
+			t1.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		 t2.start(); //Runnable 상태
+			 
 		 // t1.run(); t2.run();
 		System.out.println("main 스레드 종료");
 	}}

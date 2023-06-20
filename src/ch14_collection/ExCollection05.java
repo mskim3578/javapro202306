@@ -21,6 +21,7 @@ import java.util.TreeMap;
 public class ExCollection05 {
 	public static void main(String[] args) throws FileNotFoundException {
 		Scanner sc = new Scanner(new File("src/ch14_collection/product.txt"));
+		//sc.tokens()
 		List<Product> li = new ArrayList<Product>();
 		while (sc.hasNextLine()) {
 			// System.out.println(sc.nextLine());
